@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.debriefing/debriefing",
+  "title": "Debriefing",
+  "description": "Competitive intelligence: tracked competitors, evidence-backed signals, digests and battlecards.",
+  "version": "2.0.0",
+  "websiteUrl": "https://debriefing.io/developers?tab=mcp",
+  "repository": {
+    "url": "https://github.com/0xrome/debriefing-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://debriefing.io/icon-light.png",
+      "mimeType": "image/png"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://debriefing.io/mcp"
+    }
+  ]
+}
